@@ -16,8 +16,13 @@ class Cartao extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           spacing: -90,
           children: [
+            
+           Text("Vale Alimentação")
            Image.asset('../lib/assets/vr-card.png', width: 200, height: 200),
+
+           Text("Cartão de Crédito")
            Image.asset('../lib/assets/credit-card.png', width: 260, height: 300),
+            
           ]
         )
       )
