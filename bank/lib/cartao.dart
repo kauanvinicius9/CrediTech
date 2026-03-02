@@ -14,9 +14,10 @@ class Cartao extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          spacing: 30,
+          spacing: -90,
           children: [
-           
+           Image.asset('../lib/assets/vr-card.png', width: 200, height: 200),
+           Image.asset('../lib/assets/credit-card.png', width: 260, height: 300),
           ]
         )
       )
