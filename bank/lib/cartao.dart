@@ -16,6 +16,7 @@ class Cartao extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+<<<<<<< HEAD
           
            Text("Vale Alimentação", style: TextStyle(fontSize: 20)),
            Image.asset('../lib/assets/vr-card.png', width: 200, height: 200),
@@ -32,6 +33,15 @@ class Cartao extends StatelessWidget {
               Navigator.push(context,MaterialPageRoute(builder:(context)=>NovoCartao()));
             }, child: Text("Novo cartão"))
            
+=======
+            
+           Text("Vale Alimentação")
+           Image.asset('../lib/assets/vr-card.png', width: 200, height: 200),
+
+           Text("Cartão de Crédito")
+           Image.asset('../lib/assets/credit-card.png', width: 260, height: 300),
+            
+>>>>>>> 75f0895544674f6c9089c090b358f449bc4171a6
           ]
         )
       )
