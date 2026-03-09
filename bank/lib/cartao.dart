@@ -71,8 +71,8 @@ class Cartao extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          cardItem("Vale Alimentação", "assets/vr-card.png", 200, 120),
-          cardItem("Débito ou Crédito", "assets/credit-card.png", 260, 150),
+          cardItem("Vale Alimentação", "../lib/assets/vr-card.png", 200, 120),
+          cardItem("Débito ou Crédito", "../lib/assets/credit-card.png", 260, 150),
           botaoNovoCartao(context),
         ],
       ),
